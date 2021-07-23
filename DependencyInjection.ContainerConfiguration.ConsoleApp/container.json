@@ -1,0 +1,16 @@
+{
+  "Services": {
+    "Transient": [
+      {
+        "Interface": "DependencyInjection.ContainerConfiguration.ConsoleApp.Interfaces.IDemoInterface, DependencyInjection.ContainerConfiguration.ConsoleApp",
+        "Implementation": "DependencyInjection.ContainerConfiguration.ConsoleApp.Managers.DemoManager, DependencyInjection.ContainerConfiguration.ConsoleApp",
+        "InterceptionBehaviors": [
+          "DependencyInjection.ContainerConfiguration.Interceptors.Behaviors.ConsoleLoggingInterceptionBehavior`1, DependencyInjection.ContainerConfiguration.Interceptors",
+          "DependencyInjection.ContainerConfiguration.Interceptors.Behaviors.CachingInterceptionBehavior`1, DependencyInjection.ContainerConfiguration.Interceptors"
+        ]
+      }
+    ],
+    "Singleton": [],
+    "Scoped": []
+  }
+}
