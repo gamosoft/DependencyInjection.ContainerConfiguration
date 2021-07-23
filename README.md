@@ -54,6 +54,8 @@ Console.WriteLine($"Value returned: {mgr?.Run(2, new List<int> { 1, 2, 3 })}");
 
 > _Note: Just resolve how you would typically would do, in the sample source I have added a helper class_
 
+You can also call the _AddContainerConfiguration_ extension method with the path to a different container file (instead of _container.json_ in the running folder) or even with an existing **IConfiguration** object that has to adhere to the schema above.
+
 ## Extending with interception behaviors
 If you want to add cross cutting concerns to your services on a configuration based form, you can also use this package.
 
