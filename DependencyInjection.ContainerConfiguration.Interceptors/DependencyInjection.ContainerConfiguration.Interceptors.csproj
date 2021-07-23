@@ -5,8 +5,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DependencyInjection.ContainerConfiguration" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DependencyInjection.ContainerConfiguration\DependencyInjection.ContainerConfiguration.csproj" />
   </ItemGroup>
 
 </Project>

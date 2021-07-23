@@ -6,11 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="DependencyInjection.ContainerConfiguration" Version="1.0.0" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\DependencyInjection.ContainerConfiguration.Interceptors\DependencyInjection.ContainerConfiguration.Interceptors.csproj" />
+    <ProjectReference Include="..\DependencyInjection.ContainerConfiguration\DependencyInjection.ContainerConfiguration.csproj" />
   </ItemGroup>
 
   <ItemGroup>
